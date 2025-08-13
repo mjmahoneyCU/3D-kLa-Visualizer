@@ -150,14 +150,3 @@ if uploaded_file is not None:
 else:
     st.info("Please upload your KLa data CSV file to generate the 3D plot.")
 
-# --- Instructions to Run the Streamlit App (in sidebar) ---
-st.sidebar.header("How to Run This App")
-st.sidebar.markdown("""
-1.  **Save this code:** Save the code above into a file named `app.py` (or any other `.py` file).
-2.  **Install Streamlit:** If you haven't already, open your terminal or command prompt and run:
-    `pip install streamlit pandas plotly scipy` (Note: 'scipy' is now required)
-3.  **Run the app:** In your terminal, navigate to the directory where you saved `app.py` and run:
-    `streamlit run app.py`
-4.  **Open in browser:** Your web browser will automatically open to the Streamlit app (usually `http://localhost:8501`).
-5.  **Upload your CSV:** Use the file uploader widget in the app to select your `kladata.csv` file.
-""")
